@@ -49,5 +49,5 @@ This plugin contains following rules:
 [jsr-score-src]: https://jsr.io/badges/@yolk-oss/deno-lint-plugin/score?style=flat-square
 [jsr-href]: https://jsr.io/@yolk-oss/deno-lint-plugin
 
-[license-src]: https://img.shields.io/github/license/yolk-oss/elysia-plugin.svg?style=flat-square&labelColor=EFEBE8&color=F4BB29
-[license-href]: https://github.com/yolk-oss/elysia-plugin/blob/main/LICENSE
+[license-src]: https://img.shields.io/github/license/yolk-oss/deno-lint-plugin.svg?style=flat-square&labelColor=EFEBE8&color=F4BB29
+[license-href]: https://github.com/yolk-oss/deno-lint-plugin/blob/main/LICENSE
