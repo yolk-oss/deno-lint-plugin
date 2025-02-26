@@ -9,7 +9,10 @@
     "@std/assert": "jsr:@std/assert@1"
   },
   "lint": {
-    "plugins": ["./main.ts"]
+    "plugins": ["./main.ts"],
+    "rules": {
+      "exclude": ["yolk-deno-lint/no-magic-numbers"]
+    }
   },
   "exports": "./main.ts"
 }
