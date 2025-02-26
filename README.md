@@ -30,9 +30,9 @@ Add the following to your `deno.json`:
 
 This plugin contains following rules:
 
-- [no-magic-numbers](./rules/no-magic-numbers.ts)
-- [no-underscore-dangle](./rules/no-underscore-dangle.ts)
-- [require-yield](./rules/require-yield.ts)
+- [no-magic-numbers](./rules/no-magic-numbers/no-magic-numbers.ts)
+- [no-underscore-dangle](./rules/no-underscore-dangle/no-underscore-dangle.ts)
+- [require-yield](./rules/require-yield/require-yield.ts)
 
 ## License
 
