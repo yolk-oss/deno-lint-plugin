@@ -1,4 +1,3 @@
-// deno-lint-ignore-file yolk-deno-lint/no-magic-numbers
 import { assertEquals } from "jsr:@std/assert";
 import myPlugin from "../../main.ts";
 
