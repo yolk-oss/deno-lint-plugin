@@ -1,9 +1,13 @@
+/**
+ * Rule to disallow the use of magic numbers in code.
+ * Enforces the use of named constants for better code maintainability.
+ */
 export default {
   create(context) {
     const constantDeclarations = new Set<string>();
 
     return {
-      VariableDeclaration(node) {
+      VariableDeclaration(node: Deno.lint.VariableDeclaration) {
         if (node.kind === "const") {
           for (const declaration of node.declarations) {
             if (
@@ -17,7 +21,7 @@ export default {
         }
       },
 
-      Literal(node) {
+      Literal(node: Deno.lint.Literal): void {
         if (typeof node.value === "number") {
           if (!constantDeclarations.has(node.range.toString())) {
             context.report({
